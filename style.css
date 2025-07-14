@@ -69,7 +69,6 @@ nav ul li a:hover {
   color: var(--cor-dourado);
 }
 
-
 nav ul li a::after {
   content: '';
   position: absolute;
@@ -93,20 +92,20 @@ main {
 }
 
 main h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: var(--cor-preto);
   margin-bottom: 10px;
 }
 
 main p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: var(--cor-texto);
   margin-bottom: 40px;
 }
 
 /* SEÇÃO DE PRODUTOS */
 .produtos-section {
-  background-color: var(--cor-cinza-claro);
+  /* background-color: var(--cor-cinza-claro); */
   padding: 40px 20px;
   border-radius: 20px;
   margin: 40px auto;
@@ -253,6 +252,7 @@ main p {
     height: 24px;
   }
 }
+
 /* BOTÃO HAMBÚRGUER */
 .menu-toggle {
   display: none;
@@ -303,3 +303,18 @@ main p {
   }
 }
 
+/* FOOTER */
+footer {
+  background-color: var(--cor-cinza-claro);
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--cor-texto-suave);
+  border-top: 1px solid var(--cor-prata);
+}
+
+footer > p {
+  font-size: 0.8rem;
+  color: var(--cor-texto-suave);
+  margin-top: 10px;
+}
